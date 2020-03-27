@@ -1,0 +1,16 @@
+{
+  "contenttype": "application/json",
+  "data": {
+    "deploymentURIPublic": "http://simplenode.simpleproject-staging.keptn06-agrabner.demo.keptn.sh",
+    "teststrategy" : "performance",
+    "project": "perfservice",
+    "service": "simplenodeservice",
+    "stage": "performance",
+    "labels": {
+        "user" : "andi"
+    }
+  },
+  "source": "performance-service",
+  "specversion": "0.2",
+  "type": "sh.keptn.events.deployment-finished"
+}
