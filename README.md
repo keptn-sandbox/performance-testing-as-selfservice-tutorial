@@ -1,5 +1,9 @@
 # Tutorial on Performance Testing as a Self-Service
 
+| Author | Keptn-Version |
+| ------ | ------------- |
+| grabnerandi | 0.6.1 |
+
 If you have an application or service that you have deployed in a dev, test or staging environment then this tutorial shows you how you can use Keptn to
 #1: Automatically execute a test, e.g: JMeter, Neotys, ...
 #2: Automatically pulls in SLIs (Service Level Indicators) from different tools, e.g: Dynatrace, Prometheus, Neoload ...
