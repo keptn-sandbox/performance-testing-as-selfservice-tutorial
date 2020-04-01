@@ -15,6 +15,7 @@ Let's go!!
 ## My Sample App: Simplenodeservice
 
 If you have your own app feel free to use yours - or - feel free to use my very simple node.js based app. Its called "Simplenodeservice" - because - yeah - it is just very simple but it does its job. Also - I have it available in 4 different builds so we can deploy the different versions and have Keptn evaluate performance for us on each build!
+Find the source code or the deployment.yaml files here: https://github.com/grabnerandi/simplenodeservice
 
 ## Tutorial: Setup Instructions based on my App using Dynatrace for Monitoring
 

@@ -6,6 +6,8 @@
     "project": "perfservice",
     "service": "simplenodeservice",
     "stage": "performance",
+    "image": "simplenodeservice",
+    "tag" : "1.1",
     "labels": {
         "user" : "grabnerandi"
     }

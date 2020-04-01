@@ -6,6 +6,8 @@
     "project": "$PROJECT",
     "service": "$SERVICE",
     "stage": "$STAGE",
+    "image": "$SERVICE",
+    "tag" : "1.1",
     "labels": {
         "user" : "$USER"
     }
