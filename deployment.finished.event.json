@@ -2,12 +2,12 @@
   "contenttype": "application/json",
   "data": {
     "deploymentURIPublic": "http://simplenode.simpleproject-staging.keptn06-agrabner.demo.keptn.sh",
-    "teststrategy" : "$TESTSTRATEGY",
-    "project": "$PROJECT",
-    "service": "$SERVICE",
-    "stage": "$STAGE",
+    "teststrategy" : "performance",
+    "project": "perfservice",
+    "service": "simplenodeservice",
+    "stage": "performance",
     "labels": {
-        "user" : "$USER"
+        "user" : "grabnerandi"
     }
   },
   "source": "performance-service",

@@ -2,7 +2,7 @@
   "contenttype": "application/json",
   "data": {
     "deploymentURIPublic": "http://simplenode.simpleproject-staging.keptn06-agrabner.demo.keptn.sh",
-    "teststrategy" : "performance_10",
+    "teststrategy" : "performance_50",
     "project": "perfservice",
     "service": "simplenodeservice",
     "stage": "performance",
