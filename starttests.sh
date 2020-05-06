@@ -4,9 +4,14 @@ PROJECT=$1
 STAGE=$2
 SERVICE=$3
 TESTSTRATEGY=$4
+URL=$5
 
 if [[ -z "$TESTSTRATEGY" ]]; then
   TESTSTRATEGY="performance"
+fi
+
+if [[ -z "$URL" ]]; then
+  URL="http\:\/\/simplenode.simpleproject-staging.keptn06-agrabner.demo.keptn.sh"
 fi
 
 if [[ -z "$PROJECT" || -z "$STAGE" || -z "$SERVICE" ]]; then
@@ -23,8 +28,8 @@ if [ -f $tmpfile ] ; then
     rm -f $tmpfile
 fi
 
-sed -e "s/\$PROJECT/$PROJECT/" -e "s/\$STAGE/$STAGE/" -e "s/\$SERVICE/$SERVICE/" -e "s/\$TESTSTRATEGY/$TESTSTRATEGY/" -e "s/\$USER/$USER/" $inputfile >> $tmpfile
+sed -e "s/\$PROJECT/$PROJECT/" -e "s/\$STAGE/$STAGE/" -e "s/\$SERVICE/$SERVICE/" -e "s/\$TESTSTRATEGY/$TESTSTRATEGY/" -e "s/\$USER/$USER/" -e "s/\$URL/$URL/" $inputfile >> $tmpfile
 
 # now lets execute the keptn command
-# keptn send event --file=$tmpfile
-keptn send event --file $tmpfile
+keptn send event --file=$tmpfile
+# keptn send event --file $tmpfile

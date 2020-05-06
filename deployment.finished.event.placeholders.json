@@ -1,7 +1,7 @@
 {
   "contenttype": "application/json",
   "data": {
-    "deploymentURIPublic": "http://simplenode.simpleproject-staging.keptn06-agrabner.demo.keptn.sh",
+    "deploymentURIPublic": "$URL",
     "teststrategy" : "$TESTSTRATEGY",
     "project": "$PROJECT",
     "service": "$SERVICE",

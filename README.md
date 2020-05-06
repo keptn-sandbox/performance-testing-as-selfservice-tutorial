@@ -101,6 +101,8 @@ Now lets upload that SLI definition to the Dynatrace folder. As I want to use th
 $ keptn add-resource --project=perfservice --resource=evaluation/sli.yaml --resourceUri=dynatrace/sli.yaml
 ```
 
+
+
 **Calculated Service Metrics in Dynatrace**
 In my SLIs I use a handful of so called calculated service metrics. They are extremly powerful as they allow a user to get answers like: How many database queries does a particular test case execute. Or - what is the CPU consumption of a particular business transaction!
 You can either re-create these metrics I am using in my example through the Dynatrace UI - or - you simply execute the scripted I added to this repo like this:
